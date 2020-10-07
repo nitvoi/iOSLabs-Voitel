@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		371DCB78252DF0710008E269 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371DCB77252DF0710008E269 /* main.swift */; };
 		371DCB7F252DF28A0008E269 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371DCB7E252DF28A0008E269 /* Vector.swift */; };
+		371DCB81252DFC320008E269 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371DCB80252DFC320008E269 /* Complex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		371DCB74252DF0710008E269 /* iOS1-Voitel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS1-Voitel"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371DCB77252DF0710008E269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		371DCB7E252DF28A0008E269 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		371DCB80252DFC320008E269 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				371DCB77252DF0710008E269 /* main.swift */,
 				371DCB7E252DF28A0008E269 /* Vector.swift */,
+				371DCB80252DFC320008E269 /* Complex.swift */,
 			);
 			path = "iOS1-Voitel";
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				371DCB7F252DF28A0008E269 /* Vector.swift in Sources */,
+				371DCB81252DFC320008E269 /* Complex.swift in Sources */,
 				371DCB78252DF0710008E269 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
