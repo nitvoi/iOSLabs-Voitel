@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOS1-Voitel.xcodeproj">
+      location = "self:/Users/s0564500/Desktop/iOSLabs-Voitel/iOS1-Voitel/iOS1-Bautsch-Voitel.xcodeproj">
    </FileRef>
 </Workspace>

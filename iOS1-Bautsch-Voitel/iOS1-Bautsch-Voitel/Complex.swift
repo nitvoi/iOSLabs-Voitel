@@ -35,6 +35,7 @@ class Complex {
     public func rotateBy(angle:Double){
         //TODO
         //(cos(p) + sin(p) i)
+        multiplyBy(c: Complex(r:cos(angle),i:sin(angle)))
     }
     public func plus(c:Complex)->Complex{
         let comp = Complex(r:self.r,i:self.i)

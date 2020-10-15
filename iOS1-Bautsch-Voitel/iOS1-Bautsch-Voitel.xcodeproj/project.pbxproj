@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		371DCB74252DF0710008E269 /* iOS1-Voitel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS1-Voitel"; sourceTree = BUILT_PRODUCTS_DIR; };
+		371DCB74252DF0710008E269 /* iOS1-Bautsch-Voitel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "iOS1-Bautsch-Voitel"; sourceTree = BUILT_PRODUCTS_DIR; };
 		371DCB77252DF0710008E269 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		371DCB7E252DF28A0008E269 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		371DCB80252DFC320008E269 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		371DCB6B252DF0710008E269 = {
 			isa = PBXGroup;
 			children = (
-				371DCB76252DF0710008E269 /* iOS1-Voitel */,
+				371DCB76252DF0710008E269 /* iOS1-Bautsch-Voitel */,
 				371DCB75252DF0710008E269 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,27 +53,27 @@
 		371DCB75252DF0710008E269 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				371DCB74252DF0710008E269 /* iOS1-Voitel */,
+				371DCB74252DF0710008E269 /* iOS1-Bautsch-Voitel */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		371DCB76252DF0710008E269 /* iOS1-Voitel */ = {
+		371DCB76252DF0710008E269 /* iOS1-Bautsch-Voitel */ = {
 			isa = PBXGroup;
 			children = (
 				371DCB77252DF0710008E269 /* main.swift */,
 				371DCB7E252DF28A0008E269 /* Vector.swift */,
 				371DCB80252DFC320008E269 /* Complex.swift */,
 			);
-			path = "iOS1-Voitel";
+			path = "iOS1-Bautsch-Voitel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		371DCB73252DF0710008E269 /* iOS1-Voitel */ = {
+		371DCB73252DF0710008E269 /* iOS1-Bautsch-Voitel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 371DCB7B252DF0710008E269 /* Build configuration list for PBXNativeTarget "iOS1-Voitel" */;
+			buildConfigurationList = 371DCB7B252DF0710008E269 /* Build configuration list for PBXNativeTarget "iOS1-Bautsch-Voitel" */;
 			buildPhases = (
 				371DCB70252DF0710008E269 /* Sources */,
 				371DCB71252DF0710008E269 /* Frameworks */,
@@ -83,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS1-Voitel";
+			name = "iOS1-Bautsch-Voitel";
 			productName = "iOS1-Voitel";
-			productReference = 371DCB74252DF0710008E269 /* iOS1-Voitel */;
+			productReference = 371DCB74252DF0710008E269 /* iOS1-Bautsch-Voitel */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 371DCB6F252DF0710008E269 /* Build configuration list for PBXProject "iOS1-Voitel" */;
+			buildConfigurationList = 371DCB6F252DF0710008E269 /* Build configuration list for PBXProject "iOS1-Bautsch-Voitel" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				371DCB73252DF0710008E269 /* iOS1-Voitel */,
+				371DCB73252DF0710008E269 /* iOS1-Bautsch-Voitel */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +273,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		371DCB6F252DF0710008E269 /* Build configuration list for PBXProject "iOS1-Voitel" */ = {
+		371DCB6F252DF0710008E269 /* Build configuration list for PBXProject "iOS1-Bautsch-Voitel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				371DCB79252DF0710008E269 /* Debug */,
@@ -282,7 +282,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		371DCB7B252DF0710008E269 /* Build configuration list for PBXNativeTarget "iOS1-Voitel" */ = {
+		371DCB7B252DF0710008E269 /* Build configuration list for PBXNativeTarget "iOS1-Bautsch-Voitel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				371DCB7C252DF0710008E269 /* Debug */,
