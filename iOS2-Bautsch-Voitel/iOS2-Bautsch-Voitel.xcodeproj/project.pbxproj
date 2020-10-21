@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37807FC425405FF7005154B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37807FC325405FF7005154B6 /* Point.swift */; };
+		37807FC62540618A005154B6 /* Glyph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37807FC52540618A005154B6 /* Glyph.swift */; };
+		37807FC825406318005154B6 /* Square.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37807FC725406318005154B6 /* Square.swift */; };
 		9DC306B119E7F1380052F5F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC306B019E7F1380052F5F1 /* AppDelegate.swift */; };
 		9DC306B319E7F1380052F5F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC306B219E7F1380052F5F1 /* ViewController.swift */; };
 		9DC306B619E7F1380052F5F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DC306B419E7F1380052F5F1 /* Main.storyboard */; };
@@ -18,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS2-Vorgabe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37807FC325405FF7005154B6 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		37807FC52540618A005154B6 /* Glyph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glyph.swift; sourceTree = "<group>"; };
+		37807FC725406318005154B6 /* Square.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Square.swift; sourceTree = "<group>"; };
+		9DC306AB19E7F1380052F5F1 /* iOS2-Bautsch-Voitel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS2-Bautsch-Voitel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC306AF19E7F1380052F5F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DC306B019E7F1380052F5F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DC306B219E7F1380052F5F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +58,7 @@
 		9DC306AC19E7F1380052F5F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */,
+				9DC306AB19E7F1380052F5F1 /* iOS2-Bautsch-Voitel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +75,9 @@
 				9DC306B719E7F1380052F5F1 /* Images.xcassets */,
 				9DC306B919E7F1380052F5F1 /* LaunchScreen.xib */,
 				9DC306AE19E7F1380052F5F1 /* Supporting Files */,
+				37807FC325405FF7005154B6 /* Point.swift */,
+				37807FC52540618A005154B6 /* Glyph.swift */,
+				37807FC725406318005154B6 /* Square.swift */,
 			);
 			path = "iOS2-Vorgabe";
 			sourceTree = "<group>";
@@ -84,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DC306AA19E7F1380052F5F1 /* iOS2-Vorgabe */ = {
+		9DC306AA19E7F1380052F5F1 /* iOS2-Bautsch-Voitel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Vorgabe" */;
+			buildConfigurationList = 9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Bautsch-Voitel" */;
 			buildPhases = (
 				9DC306A719E7F1380052F5F1 /* Sources */,
 				9DC306A819E7F1380052F5F1 /* Frameworks */,
@@ -96,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS2-Vorgabe";
+			name = "iOS2-Bautsch-Voitel";
 			productName = "Ue2-Vorgabe";
-			productReference = 9DC306AB19E7F1380052F5F1 /* iOS2-Vorgabe.app */;
+			productReference = 9DC306AB19E7F1380052F5F1 /* iOS2-Bautsch-Voitel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Vorgabe" */;
+			buildConfigurationList = 9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Bautsch-Voitel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DC306AA19E7F1380052F5F1 /* iOS2-Vorgabe */,
+				9DC306AA19E7F1380052F5F1 /* iOS2-Bautsch-Voitel */,
 			);
 		};
 /* End PBXProject section */
@@ -155,7 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37807FC825406318005154B6 /* Square.swift in Sources */,
 				9DC306D519E7FB810052F5F1 /* Drawing.swift in Sources */,
+				37807FC425405FF7005154B6 /* Point.swift in Sources */,
+				37807FC62540618A005154B6 /* Glyph.swift in Sources */,
 				9DC306B319E7F1380052F5F1 /* ViewController.swift in Sources */,
 				9DC306D719E7FF780052F5F1 /* DrawHelper.swift in Sources */,
 				9DC306D319E7F4CD0052F5F1 /* GlyphView.swift in Sources */,
@@ -301,7 +313,7 @@
 				INFOPLIST_FILE = "iOS2-Vorgabe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.klausjung.iOS2-Vorgabe";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS2-Bautsch-Voitel";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -318,7 +330,7 @@
 				INFOPLIST_FILE = "iOS2-Vorgabe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.klausjung.iOS2-Vorgabe";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS2-Bautsch-Voitel";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -327,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Vorgabe" */ = {
+		9DC306A619E7F1380052F5F1 /* Build configuration list for PBXProject "iOS2-Bautsch-Voitel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DC306C819E7F1380052F5F1 /* Debug */,
@@ -336,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Vorgabe" */ = {
+		9DC306CA19E7F1380052F5F1 /* Build configuration list for PBXNativeTarget "iOS2-Bautsch-Voitel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DC306CB19E7F1380052F5F1 /* Debug */,
