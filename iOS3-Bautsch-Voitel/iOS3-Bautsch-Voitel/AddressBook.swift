@@ -13,6 +13,7 @@ class AddressBook: Codable{
     
     func add(card:AddressCard){
         self.addressCards.append(card)
+        self.sort()
     }
     
     func remove(card:AddressCard){
@@ -23,6 +24,25 @@ class AddressBook: Codable{
             self.addressCards.remove(at: i)
         }
     }
-    
-    
+
+    func sort(){
+        self.addressCards.sort(by: { $0.lastName < $1.lastName } )
+    }
+
+    func save(toFile path: String){
+        let encoder= PropertyListEncoder()
+        if let data = try? encoder.encode(self) {
+            try? data.write(to: path)
+        }
+    }
+
+    class func addressBook(fromFile path: String) -> AddressBook?{
+        if let data = try? Data(contentsOf: path) {
+            let decoder = PropertyListDecoder()
+            if let book= try? decoder.decode(AddressBook.self, from: data) {
+                return book
+            }
+        }
+    }
+
 }

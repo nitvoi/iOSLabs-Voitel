@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+//book einlesen
+AddressBook.addressBook(fromFile: "book.plist")
+
 
